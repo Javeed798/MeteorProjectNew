@@ -1,0 +1,25 @@
+import { Template } from 'meteor/templating';
+import { ReactiveVar } from 'meteor/reactive-var';
+
+import './main.html';
+import './layout.html'
+import './home.html'
+import './jokeForm.html'
+import './jokeForm'
+import './jokes'
+import './login.html'
+import './login'
+import './profile.html'
+import './profile'
+import './rankings.html'
+import './rankings'
+import './signup.html'
+import './signup'
+import './sidebar'
+import './sidebar.html'
+import './search'
+import '../lib/routes/routes'
+import '../lib/methods/methods'
+import '../lib/collections/collections'
+import '../lib/pub'
+import '../lib/sub'

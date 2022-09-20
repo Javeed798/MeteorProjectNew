@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <title>MicroPosts | Speak your mind</title>
+</head>
+
+<body>
+  {{renderPage}}
+</body>
+
+<template name="main">
+  {{> navbar}}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        {{> yield}}
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="navbar">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div cl++ass="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MicroPosts</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="{{pathFor 'posts'}}">Home</a></li>
+          <li><a href="{{pathFor 'about'}}">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>{{> loginButtons}}</li>
+          <li><a href="profile">Edit Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>

@@ -1,0 +1,16 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.panel-register{
+  display: none;
+}
+
+.reply-customer, .reply-staff{
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.reply-customer{
+  background: gray;
+}

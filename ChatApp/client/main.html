@@ -1,0 +1,23 @@
+<head>
+  <title>ChatApp</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <form action="" id="chat-form">
+    <textarea name="message" rows="5"></textarea>
+    <p>
+      <input type="submit" name="" id="">
+    </p>
+  </form>
+
+  {{#each messages}}
+    <p>{{text}}</p>
+  {{/each}}
+
+</template>
+

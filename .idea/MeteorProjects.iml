@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/2.Microposts/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/3.FacebookClone/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/4.LoginSystem/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/5.FAQComponent/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/6.HelpTickets/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/ChatApp/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/JEST/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/ProductReview/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/Todos/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/newshunt/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/titra/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
